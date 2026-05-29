@@ -1,0 +1,7 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "build": "deno run -A npm:@react-router/dev build",
+    "start": "HOST=0.0.0.0 PORT=8000 deno run -A npm:@react-router/serve ./build/server/index.js"
+  }
+}
